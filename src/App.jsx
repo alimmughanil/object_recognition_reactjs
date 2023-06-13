@@ -66,7 +66,7 @@ function App() {
       {openCamera ?
         <Webcam
           id="video"
-          className='rounded-lg w-full sm:w-[60rem]'
+          className='rounded-lg w-full sm:w-[50rem]'
           audio={false}
           imageSmoothing={true}
           onChange={() => getDetect()}
